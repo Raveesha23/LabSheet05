@@ -13,9 +13,9 @@ object fibonacci {
     }
 
     def main(args: Array[String]) : Unit = {
-        val n = readLine("Enter number of Fibonacci numbers to be printed: ")
+        val n = readLine("Enter number of Fibonacci numbers to be printed: ").toInt
         println(s"The first $n Fibonacci numbers are: ")
-        fibonacciSeq(10)
+        fibonacciSeq(n)
     }
 
     
